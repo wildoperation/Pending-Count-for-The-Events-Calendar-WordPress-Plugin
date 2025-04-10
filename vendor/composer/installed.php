@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => '__root__',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-develop',
+        'version' => 'dev-develop',
+        'reference' => '5e51218521d1f06299e0b6798a88949276feb67f',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-develop',
+            'version' => 'dev-develop',
+            'reference' => '5e51218521d1f06299e0b6798a88949276feb67f',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -35,17 +35,6 @@
             'type' => 'composer-plugin',
             'install_path' => __DIR__ . '/../typisttech/imposter-plugin',
             'aliases' => array(),
-            'dev_requirement' => false,
-        ),
-        'wildoperation/wp-plugin-review-bug' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
-            'reference' => '65a133dffbd20d0ef1e3e5a90db9e5dc878e0d7f',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../wildoperation/wp-plugin-review-bug',
-            'aliases' => array(
-                0 => '9999999-dev',
-            ),
             'dev_requirement' => false,
         ),
     ),

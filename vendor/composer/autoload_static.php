@@ -6,10 +6,6 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit7ce85e1c82b4cbf2e27a8ac16f997a29
 {
-    public static $files = array (
-        '23084107b6d1f20643b63bd5e97de6aa' => __DIR__ . '/..' . '/wildoperation/wp-plugin-review-bug/class-wppluginreviewbug.php',
-    );
-
     public static $prefixLengthsPsr4 = array (
         'W' => 
         array (
@@ -60,7 +56,6 @@ class ComposerStaticInit7ce85e1c82b4cbf2e27a8ac16f997a29
         'TypistTech\\Imposter\\Transformer' => __DIR__ . '/..' . '/typisttech/imposter/src/Transformer.php',
         'TypistTech\\Imposter\\TransformerInterface' => __DIR__ . '/..' . '/typisttech/imposter/src/TransformerInterface.php',
         'WOPECTEC\\Admin' => __DIR__ . '/../..' . '/includes/Admin.php',
-        'WOPECTEC\\Vendor\\WOWPRB\\WPPluginReviewBug' => __DIR__ . '/..' . '/wildoperation/wp-plugin-review-bug/class-wppluginreviewbug.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

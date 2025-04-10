@@ -28,5 +28,4 @@ return array(
     'TypistTech\\Imposter\\Transformer' => $vendorDir . '/typisttech/imposter/src/Transformer.php',
     'TypistTech\\Imposter\\TransformerInterface' => $vendorDir . '/typisttech/imposter/src/TransformerInterface.php',
     'WOPECTEC\\Admin' => $baseDir . '/includes/Admin.php',
-    'WOPECTEC\\Vendor\\WOWPRB\\WPPluginReviewBug' => $vendorDir . '/wildoperation/wp-plugin-review-bug/class-wppluginreviewbug.php',
 );
